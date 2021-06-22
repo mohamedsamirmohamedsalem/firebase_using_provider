@@ -3,8 +3,8 @@ import 'package:flutter/foundation.dart';
 
 @immutable
 class User {
-  const User({@required this.uid});
   final String uid;
+  const User({@required this.uid});
 }
 
 class FirebaseAuthService {
